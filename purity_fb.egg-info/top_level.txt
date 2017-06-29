@@ -1,2 +1,0 @@
-purity_fb
-test
