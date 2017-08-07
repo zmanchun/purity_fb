@@ -1,12 +1,27 @@
 site_name: Purity FB REST API
 pages:
-- Home: index.md
-- APIs:
-    - File System API: FileSystemApi.md
-    - File System Snapshot API: FileSystemSnapshotApi.md
-    - File System API (Beta): FileSystemBetaApi.md
+- Home:
+    - Get started: index.md
+- Endpoints:
+    - Authentication: AuthenticationApi.md
+    - File System: FileSystemApi.md
+    - File System (Beta): FileSystemBetaApi.md
+    - File System Snapshot: FileSystemSnapshotApi.md
     - File System Snapshot API (Beta): FileSystemSnapshotBetaApi.md
-- Models: FileSystem.md
+- Models:
+    - Response:
+        - Pagination Information: PaginationInfo.md
+        - Login: LoginResponse.md
+        - File System: FileSystemResponse.md
+	- File System Snapshot: FileSystemSnapshotResponse.md
+    - Space: Space.md
+    - File System: FileSystem.md
+        - File System: FileSystem.md
+        - NFS Protocol: NfsRule.md
+        - Protocol Rule: ProtocolRule.md
+    - File System Snapshot:
+        - File System Snapshot: FileSystemSnapshot.md
+        - Snapshot Suffix: SnapshotSuffix.md
 - About:
     - License: about/license.md
 theme: readthedocs
