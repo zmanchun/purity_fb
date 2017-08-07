@@ -163,15 +163,12 @@ at most 20 retries in total, among which at most 15 connection retries and at mo
 
  - [FileSystem](FileSystem.md)
  - [FileSystemResponse](FileSystemResponse.md)
- - [FileSystemRules](FileSystemRules.md)
  - [FileSystemSnapshot](FileSystemSnapshot.md)
  - [FileSystemSnapshotResponse](FileSystemSnapshotResponse.md)
  - [LoginResponse](LoginResponse.md)
  - [NfsRule](NfsRule.md)
- - [ObjectResponse](ObjectResponse.md)
  - [PaginationInfo](PaginationInfo.md)
  - [ProtocolRule](ProtocolRule.md)
- - [PureObject](PureObject.md)
  - [SnapshotSuffix](SnapshotSuffix.md)
  - [Space](Space.md)
 
