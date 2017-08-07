@@ -18,9 +18,9 @@ Python 2.7 and 3.4+
 If the python package is hosted on Github, you can install directly from Github
 
 ```sh
-pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
+pip install git+https://github.com/zmanchun/purity_fb.git
 ```
-(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git`)
+(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/zmanchun/purity_fb.git`)
 
 Then import the package:
 ```python
@@ -194,5 +194,5 @@ at most 20 retries in total, among which at most 15 connection retries and at mo
 
 ## Author
 
-info@purestorage.com
+[Pure Storage Inc.](http://www.purestorage.com)
 
