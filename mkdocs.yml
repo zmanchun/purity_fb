@@ -13,7 +13,7 @@ pages:
         - Pagination Information: PaginationInfo.md
         - Login: LoginResponse.md
         - File System: FileSystemResponse.md
-	- File System Snapshot: FileSystemSnapshotResponse.md
+        - File System Snapshot: FileSystemSnapshotResponse.md
     - Space: Space.md
     - File System: FileSystem.md
         - File System: FileSystem.md
