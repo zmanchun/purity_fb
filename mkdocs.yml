@@ -1,6 +1,12 @@
 site_name: Purity FB REST API
 pages:
-- Purity FB REST API Overview: index.md
-- API: *Api.md
-- Model: FileSystem.md
+- Home: index.md
+- APIs:
+    - File System API: FileSystemApi.md
+    - File System Snapshot API: FileSystemSnapshotApi.md
+    - File System API (Beta): FileSystemBetaApi.md
+    - File System Snapshot API (Beta): FileSystemSnapshoBetatApi.md
+- Models: FileSystem.md
+- About:
+    - License: about/license.md
 theme: readthedocs
