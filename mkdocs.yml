@@ -15,7 +15,7 @@ pages:
         - File System: FileSystemResponse.md
         - File System Snapshot: FileSystemSnapshotResponse.md
     - Space: Space.md
-    - File System: FileSystem.md
+    - File System:
         - File System: FileSystem.md
         - NFS Protocol: NfsRule.md
         - Protocol Rule: ProtocolRule.md
