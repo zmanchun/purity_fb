@@ -5,7 +5,7 @@ pages:
     - File System API: FileSystemApi.md
     - File System Snapshot API: FileSystemSnapshotApi.md
     - File System API (Beta): FileSystemBetaApi.md
-    - File System Snapshot API (Beta): FileSystemSnapshoBetatApi.md
+    - File System Snapshot API (Beta): FileSystemSnapshotBetaApi.md
 - Models: FileSystem.md
 - About:
     - License: about/license.md
