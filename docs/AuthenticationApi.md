@@ -4,8 +4,8 @@ All URIs are relative to *https://purity_fb_server/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**login**](AuthenticationApi.md#login) | **POST** /login | 
-[**logout**](AuthenticationApi.md#logout) | **POST** /logout | 
+[**login**](AuthenticationApi.md#login) | **POST** /login |
+[**logout**](AuthenticationApi.md#logout) | **POST** /logout |
 
 
 # **login**
@@ -15,25 +15,25 @@ Method | HTTP request | Description
 
 Log in to the server
 
-### Example 
+### Example
 ```python
 from purity_fb import PurityFb, FileSystem, rest
 
 fb = PurityFb("10.255.9.28") # assume the array IP is 10.255.9.28
 try:
-    # login to the array with your API_TOKEN
-    # use *_with_http_info method to get response header as well as body
-    res = fb.authentication.login_with_http_info(API_TOKEN)
-    X_AUTH_TOKEN = res[2]['x-auth-token']
+# login to the array with your API_TOKEN
+# use *_with_http_info method to get response header as well as body
+res = fb.authentication.login_with_http_info(API_TOKEN)
+X_AUTH_TOKEN = res[2]['x-auth-token']
 except rest.ApiException as e:
-    print("Exception when logging in to the array: %s\n" % e)
+print("Exception when logging in to the array: %sn" % e)
 ```
 
 ### Parameters
 
-Name | Type | Description  | Notes
+Name | Type | Description | Notes
 ------------- | ------------- | ------------- | -------------
- **api_token** | **str**| the token to log in | 
+**api_token** | **str**| the token to log in |
 
 ### Return type
 
@@ -41,14 +41,14 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenQueryParam](../README.md#ApiTokenQueryParam)
+[ApiTokenQueryParam](README.md#ApiTokenQueryParam)
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
- - **Accept**: application/json
+- **Content-Type**: application/json
+- **Accept**: application/json
 
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
 
 # **logout**
 > logout()
@@ -57,7 +57,7 @@ Name | Type | Description  | Notes
 
 Log out from the server
 
-### Example 
+### Example
 ```python
 from __future__ import print_statement
 import time
@@ -73,10 +73,10 @@ purity_fb.configuration.api_key['x-auth-token'] = 'YOUR_API_KEY'
 # create an instance of the API class
 api_instance = purity_fb.AuthenticationApi()
 
-try: 
-    api_instance.logout()
+try:
+api_instance.logout()
 except ApiException as e:
-    print("Exception when calling AuthenticationApi->logout: %s\n" % e)
+print("Exception when calling AuthenticationApi->logout: %sn" % e)
 ```
 
 ### Parameters
@@ -88,12 +88,12 @@ void (empty response body)
 
 ### Authorization
 
-[AuthTokenHeader](../README.md#AuthTokenHeader)
+[AuthTokenHeader](README.md#AuthTokenHeader)
 
 ### HTTP request headers
 
- - **Content-Type**: application/json
- - **Accept**: application/json
+- **Content-Type**: application/json
+- **Accept**: application/json
 
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
 
