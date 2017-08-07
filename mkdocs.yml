@@ -1,6 +1,6 @@
 site_name: Purity//FB REST API
 pages:
-- About:
+- Overview:
     - Get started: index.md
     - License: about/license.md
 - Endpoints:
