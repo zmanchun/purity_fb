@@ -50,14 +50,14 @@ Name | Type | Description | Notes
 
 ### Authorization
 
-[AuthTokenHeader](README.md#AuthTokenHeader)
+[AuthTokenHeader](index.md#AuthTokenHeader)
 
 ### HTTP request headers
 
 - **Content-Type**: application/json
 - **Accept**: application/json
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](index.md#documentation-for-api-endpoints) [[Back to Model list]](index.md#documentation-for-models) [[Back to README]](index.md)
 
 # **list**
 > FileSystemSnapshotResponse list(filter=filter, sort=sort, start=start, limit=limit, token=token, names_or_sources=names_or_sources)
@@ -107,12 +107,12 @@ Name | Type | Description | Notes
 
 ### Authorization
 
-[AuthTokenHeader](README.md#AuthTokenHeader)
+[AuthTokenHeader](index.md#AuthTokenHeader)
 
 ### HTTP request headers
 
 - **Content-Type**: application/json
 - **Accept**: application/json
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](index.md#documentation-for-api-endpoints) [[Back to Model list]](index.md#documentation-for-models) [[Back to README]](index.md)
 
