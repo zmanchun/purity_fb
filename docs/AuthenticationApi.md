@@ -41,14 +41,14 @@ Name | Type | Description | Notes
 
 ### Authorization
 
-[ApiTokenQueryParam](README.md#ApiTokenQueryParam)
+[ApiTokenQueryParam](index.md#ApiTokenQueryParam)
 
 ### HTTP request headers
 
 - **Content-Type**: application/json
 - **Accept**: application/json
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](index.md#documentation-for-api-endpoints) [[Back to Model list]](index.md#documentation-for-models) [[Back to README]](index.md)
 
 # **logout**
 > logout()
@@ -88,12 +88,12 @@ void (empty response body)
 
 ### Authorization
 
-[AuthTokenHeader](README.md#AuthTokenHeader)
+[AuthTokenHeader](index.md#AuthTokenHeader)
 
 ### HTTP request headers
 
 - **Content-Type**: application/json
 - **Accept**: application/json
 
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
+[[Back to top]](#) [[Back to API list]](index.md#documentation-for-api-endpoints) [[Back to Model list]](index.md#documentation-for-models) [[Back to README]](index.md)
 
