@@ -1,7 +1,8 @@
-site_name: Purity FB REST API
+site_name: Purity//FB REST API
 pages:
-- Home:
+- About:
     - Get started: index.md
+    - License: about/license.md
 - Endpoints:
     - Authentication: AuthenticationApi.md
     - File System: FileSystemApi.md
@@ -22,6 +23,4 @@ pages:
     - File System Snapshot:
         - File System Snapshot: FileSystemSnapshot.md
         - Snapshot Suffix: SnapshotSuffix.md
-- About:
-    - License: about/license.md
 theme: readthedocs
