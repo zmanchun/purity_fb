@@ -1,0 +1,6 @@
+site_name: Purity FB REST API
+pages:
+- Purity FB REST API Overview: README.md
+- API: docs/FileSystemApi.md
+- Model: docs/FileSystem.md
+theme: readthedocs
