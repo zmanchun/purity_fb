@@ -18,9 +18,9 @@ Python 2.7 and 3.4+
 If the python package is hosted on Github, you can install directly from Github
 
 ```sh
-pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
+pip install git+https://github.com/zmanchun/purity_fb.git
 ```
-(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git`)
+(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/zmanchun/purity_fb.git`)
 
 Then import the package:
 ```python
@@ -79,15 +79,14 @@ Two methods are provided for logging into and out from a device.
 
 Method | Parameters | Description
 ------------- | ------------- | -------------
-*login* | *api_token* | Login to the REST server with a specified *api-token*. 
-This method must be executed successfully before making any function calls to any APIs.
-*logout* | n/a | Logout from the REST server
+*login* | *api_token* | Login to the REST server with a specified *api-token*. **This method must be executed successfully before making any function calls to any APIs.** | 
+*logout* | n/a | Logout from the REST server |
 
 
-### Endpoint Properties (read-only)
+### **Endpoint Properties**
 
 
-Once *login* succeeds, different endpoints could be accessed through the properties of *PurityFb* objects.
+Once *login* succeeds, different endpoints could be accessed through the following read-only properties of *PurityFb* objects.
 
 Property | Type | Descripstion
 ------------ | ------------- | -------------
