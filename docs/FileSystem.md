@@ -13,6 +13,6 @@ Name | Type | Description | Notes
 **snapshot_directory_enabled** | **bool** | is snapshot directory enabled? Modifiable. | [optional] [default to False]
 **space** | [**Space**](Space.md) | the space specification of the file system | [optional] 
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+[[Back to Model list]](index.md#documentation-for-models) [[Back to API list]](index.md#documentation-for-api-endpoints) [[Back to Overview]](index.md)
 
 
