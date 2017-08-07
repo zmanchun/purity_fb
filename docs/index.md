@@ -79,22 +79,21 @@ Two methods are provided for logging into and out from a device.
 
 Method | Parameters | Description
 ------------- | ------------- | -------------
-*login* | *api_token* | Login to the REST server with a specified *api-token*. 
-This method must be executed successfully before making any function calls to any APIs.
-*logout* | n/a | Logout from the REST server
+*login* | *api_token* | Login to the REST server with a specified *api-token*. **This method must be executed successfully before making any function calls to any APIs.** | 
+*logout* | n/a | Logout from the REST server |
 
 
-### Endpoint Properties (read-only)
+### **Endpoint Properties**
 
 
-Once *login* succeeds, different endpoints could be accessed through the properties of *PurityFb* objects.
+Once *login* succeeds, different endpoints could be accessed through the following read-only properties of *PurityFb* objects.
 
 Property | Type | Descripstion
 ------------ | ------------- | -------------
-*file_system* | [**FileSystemApi**](docs/FileSystemApi.md) | API for the file system endpoint (**create**, **list**, and **update**) |
-*file_system_beta* | [**FileSystemBetaApi**](docs/FileSystemBetaApi.md) | API for the beta file system endpoint  (**delete** only) |
-*file_system_snapshot* | [**FileSystemSnapshotApi**](docs/FileSystemSnapshotApi.md) | API for the file system snapshots endpoint (**create** and **list**) |
-*file_system_snapshot_beta* | [**FileSystemSnapshotBetaApi**](docs/FileSystemSnapshotBetaApi.md) | API for the beta file system snapshots endpoint (**delete** only) |
+*file_system* | [**FileSystemApi**](FileSystemApi.md) | API for the file system endpoint (**create**, **list**, and **update**) |
+*file_system_beta* | [**FileSystemBetaApi**](FileSystemBetaApi.md) | API for the beta file system endpoint  (**delete** only) |
+*file_system_snapshot* | [**FileSystemSnapshotApi**](FileSystemSnapshotApi.md) | API for the file system snapshots endpoint (**create** and **list**) |
+*file_system_snapshot_beta* | [**FileSystemSnapshotBetaApi**](FileSystemSnapshotBetaApi.md) | API for the beta file system snapshots endpoint (**delete** only) |
 
 
 #### Call with HTTP information
@@ -110,7 +109,7 @@ fb.login("T-1eeb15b4-1288-49b2-b0cc-5a7c9e5d524f")
 data = fb.file_system.create(FileSystem(name="myfs"))
 ```
 
-Here *response_data* has type [FileSystemResponse](docs/FileSystemResponse.md). 
+Here *response_data* has type [FileSystemResponse](FileSystemResponse.md). 
 And if call with HTTP information, both the response status and header will be returned as well.
 
 ```(data, status, header) = fb.file_system.create_with_http_info(FileSystem(name="myfs"))```
@@ -162,19 +161,19 @@ at most 20 retries in total, among which at most 15 connection retries and at mo
 
 ## Documentation For Models
 
- - [FileSystem](docs/FileSystem.md)
- - [FileSystemResponse](docs/FileSystemResponse.md)
- - [FileSystemRules](docs/FileSystemRules.md)
- - [FileSystemSnapshot](docs/FileSystemSnapshot.md)
- - [FileSystemSnapshotResponse](docs/FileSystemSnapshotResponse.md)
- - [LoginResponse](docs/LoginResponse.md)
- - [NfsRule](docs/NfsRule.md)
- - [ObjectResponse](docs/ObjectResponse.md)
- - [PaginationInfo](docs/PaginationInfo.md)
- - [ProtocolRule](docs/ProtocolRule.md)
- - [PureObject](docs/PureObject.md)
- - [SnapshotSuffix](docs/SnapshotSuffix.md)
- - [Space](docs/Space.md)
+ - [FileSystem](FileSystem.md)
+ - [FileSystemResponse](FileSystemResponse.md)
+ - [FileSystemRules](FileSystemRules.md)
+ - [FileSystemSnapshot](FileSystemSnapshot.md)
+ - [FileSystemSnapshotResponse](FileSystemSnapshotResponse.md)
+ - [LoginResponse](LoginResponse.md)
+ - [NfsRule](NfsRule.md)
+ - [ObjectResponse](ObjectResponse.md)
+ - [PaginationInfo](PaginationInfo.md)
+ - [ProtocolRule](ProtocolRule.md)
+ - [PureObject](PureObject.md)
+ - [SnapshotSuffix](SnapshotSuffix.md)
+ - [Space](Space.md)
 
 
 ## Documentation For Authorization
