@@ -1,9 +1,9 @@
 # coding: utf-8
 
 """
-    Pure Storage FlashBlade REST Client
+    Purity//FB REST Client
 
-    Client for FlashBlade REST API 1.0, developed by Pure Storage, Inc. (http://www.purestorage.com/).
+    Client for Purity//FB REST API 1.0, developed by [Pure Storage, Inc](http://www.purestorage.com/). Documentations can be found at [purity-fb.readthedocs.io](http://purity-fb.readthedocs.io/en/latest/).
 
     OpenAPI spec version: 1.0
     Contact: info@purestorage.com
@@ -28,14 +28,14 @@ REQUIRES = ["urllib3 >= 1.15", "six >= 1.10", "certifi", "python-dateutil"]
 setup(
     name=NAME,
     version=VERSION,
-    description="Pure Storage FlashBlade REST Client",
+    description="Purity//FB REST Client",
     author_email="info@purestorage.com",
     url="",
-    keywords=["Swagger", "Pure Storage FlashBlade REST Client"],
+    keywords=["Swagger", "Purity//FB REST Client"],
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
     long_description="""\
-    Client for FlashBlade REST API 1.0, developed by Pure Storage, Inc. (http://www.purestorage.com/).
+    Client for Purity//FB REST API 1.0, developed by [Pure Storage, Inc](http://www.purestorage.com/). Documentations can be found at [purity-fb.readthedocs.io](http://purity-fb.readthedocs.io/en/latest/).
     """
 )

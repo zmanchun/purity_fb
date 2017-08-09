@@ -1,9 +1,9 @@
 # coding: utf-8
 
 """
-    Pure Storage FlashBlade REST Client
+    Purity//FB REST Client
 
-    Client for FlashBlade REST API 1.0, developed by Pure Storage, Inc. (http://www.purestorage.com/).
+    Client for Purity//FB REST API 1.0, developed by [Pure Storage, Inc](http://www.purestorage.com/). Documentations can be found at [purity-fb.readthedocs.io](http://purity-fb.readthedocs.io/en/latest/).
 
     OpenAPI spec version: 1.0
     Contact: info@purestorage.com
